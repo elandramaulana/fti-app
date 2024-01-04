@@ -1,0 +1,209 @@
+#header{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+#hero{
+    background-image: url('assets/img/hero.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#hero h1{
+    text-align: center;
+    font-size: 55px;
+    line-height: 1.6;
+}
+
+
+#about{
+    text-align: justify;
+}
+
+#about p{
+    margin-top: -25px;
+}
+
+.hr-about{
+    background-color: #47b2e4;
+    height: 3px;
+    border: none;
+    margin: 0px 500px 10px 10px;
+}
+
+#counts{
+    background-color: #000000;
+}
+
+#counts span{
+    color: #47b2e4;
+    font-size: 70px;
+}
+
+#cta{
+    background-image: url('assets/img/layanan.png');
+}
+
+/* #cta h3{
+    font-size: 75px;
+} */
+
+#cta h4{
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+#cta h1{
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+}
+
+.text-justify{
+    text-align:justify;
+}
+
+#faq{
+    background-image: url('assets/img/faq.png');
+    height: 110vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+#faq .konsul-btn{
+    background-color: transparent;
+    color: #47b2e4;
+    border: solid #47b2e4;
+    padding: 8px;
+}
+#faq .konsul-btn:hover{
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+#alur{
+    background-image: url('assets/img/alur-bg.png');
+    height: 130vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+#alur h5{
+    margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+   #alur{
+    height: 130vh;
+   }
+   #cta h1{
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    }
+    #about img{
+        width: 100%;
+    }
+    #faq{
+        background-image: url('assets/img/faq.png');
+        height: 130vh;
+        background-size: cover;
+        background-position: center center;
+    }
+    #hero h1{
+        text-align: center;
+        font-size: 35px;
+      
+    }
+  }
+
+#alur li{
+    background-color: #47b2e4;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-danger{
+    background-color: #000000;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 40px;
+    color: #47b2e4;
+}
+
+.btn-danger:hover{
+    background-color: #47b2e4;
+    color: #000000;
+
+}
+
+#footer a{
+    color: #47b2e4;
+}
+
+
+.login{
+    color: #ffffff; 
+    font-size:30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+/* Dashboard admin */
+
+#sidebar-admin a{
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    padding-left: 30px;
+}
+#sidebar-admin i{
+    color: #47b2e4; 
+}
+#sidebar-admin a:hover{
+    color: #47b2e4;
+}
+#sidebar-admin a:active{
+    color: #47b2e4;
+}
+
+#dashboard-adm .title{
+    color: #47b2e4;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+   
+}
+
+@media (max-width: 768px) {
+    #size-sidebar img{
+        width: 80px;
+    }
+}
+
+.btn-learn-more{
+    background-color: #47b2e4;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+}
+.btn-learn-more:hover{
+    background-color: #000000;
+    color: white;
+}
+
+
+#sidebar-admin .logout-button{
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: inherit; /* Menyesuaikan warna teks dengan warna default tautan */
+    cursor: pointer; /* Menunjukkan kursor saat diarahkan ke tombol */
+    padding-left: 30px;
+    
+}
+
+
+/* login */
+
+
+
+
